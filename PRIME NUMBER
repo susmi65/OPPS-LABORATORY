@@ -1,0 +1,131 @@
+TEST CASE 1:
+public class PRIMENUMBERCHECKER {
+public static void main(String[] args) {
+		int num = 2;
+		boolean isprime = true;
+		if (num <= 1) {
+			isprime = false;
+		} else {
+			for (int i = 2; i <= num / 2;i++) {
+				if (num % i == 0) {
+					isprime = false;
+					break;
+				}
+			}
+			
+		}
+		if (isprime) {
+			System.out.println(num + " is a prime number .");
+		} else {
+			System.out.println(num + " is not a prime number .");
+		}
+	}
+OUTPUT:
+2 is a prime number.
+
+TEST CASE 2:
+public class PRIMENUMBERCHECKER {
+public static void main(String[] args) {
+		int num = 15;
+		boolean isprime = true;
+		if (num <= 1) {
+			isprime = false;
+		} else {
+			for (int i = 2; i <= num / 2;i++) {
+				if (num % i == 0) {
+					isprime = false;
+					break;
+				}
+			}
+			
+		}
+		if (isprime) {
+			System.out.println(num + " is a prime number .");
+		} else {
+			System.out.println(num + " is not a prime number .");
+		}
+	}
+OUTPUT:
+15 is not prime number.
+
+
+TEST CASE 3:
+public class PRIMENUMBERCHECKER {
+public static void main(String[] args) {
+		int num = 17;
+		boolean isprime = true;
+		if (num <= 1) {
+			isprime = false;
+		} else {
+			for (int i = 2; i <= num / 2;i++) {
+				if (num % i == 0) {
+					isprime = false;
+					break;
+				}
+			}
+			
+		}
+		if (isprime) {
+			System.out.println(num + " is a prime number .");
+		} else {
+			System.out.println(num + " is not a prime number .");
+		}
+	}
+OUTPUT:
+17 is a prime number.
+
+TEST CASE 4:
+public class PRIMENUMBERCHECKER {
+public static void main(String[] args) {
+		int num = 1;
+		boolean isprime = true;
+		if (num <= 1) {
+			isprime = false;
+		} else {
+			for (int i = 2; i <= num / 2;i++) {
+				if (num % i == 0) {
+					isprime = false;
+					break;
+				}
+			}
+			
+		}
+		if (isprime) {
+			System.out.println(num + " is a prime number .");
+		} else {
+			System.out.println(num + " is not a prime number .");
+		}
+	}
+OUTPUT:
+1 is not a prime number.
+
+TEST CASE 5:
+public class PRIMENUMBERCHECKER {
+public static void main(String[] args) {
+		int num = 0;
+		boolean isprime = true;
+		if (num <= 1) {
+			isprime = false;
+		} else {
+			for (int i = 2; i <= num / 2;i++) {
+				if (num % i == 0) {
+					isprime = false;
+					break;
+				}
+			}
+			
+		}
+		if (isprime) {
+			System.out.println(num + " is a prime number .");
+		} else {
+			System.out.println(num + " is not a prime number .");
+		}
+	}
+OUTPUT:
+0 is not a prime number.
+
+RESULT:
+Outputs whether the input number is prime or not.
+
+
+TEST CASE 2:
